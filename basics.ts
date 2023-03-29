@@ -33,10 +33,16 @@ person = {
 };
 
 // person = {
-//   isEmployee: true,
+//   isEmployee: true,      doesnt work cause not declared
 // };
 
 let people: {
   name: string;
   age: number;
 }[];
+
+// Type inference
+
+let kite = "Cabrinha";
+
+// kite = 1234 doesnt work cause of inference
