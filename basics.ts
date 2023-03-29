@@ -40,3 +40,13 @@ let people: Person[];
 let kite: string | number = "Cabrinha";
 
 kite = 1234;
+
+// Functions & types
+
+function add(a: number, b: number) {
+  return a + b;
+}
+
+function printOutput(value: any) {
+  console.log(value);
+}
