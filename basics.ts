@@ -22,24 +22,18 @@ let hobbies: string[];
 
 hobbies = ["sport", "cooking"];
 
-let person: {
+type Person = {
   name: string;
   age: number;
 };
 
-person = {
-  name: "Max",
-  age: 21,
-};
+let person: Person;
 
 // person = {
 //   isEmployee: true,      doesnt work cause not declared
 // };
 
-let people: {
-  name: string;
-  age: number;
-}[];
+let people: Person[];
 
 // Type inference
 
