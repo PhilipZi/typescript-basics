@@ -43,6 +43,6 @@ let people: {
 
 // Type inference
 
-let kite = "Cabrinha";
+let kite: string | number = "Cabrinha";
 
-// kite = 1234 doesnt work cause of inference
+kite = 1234;
